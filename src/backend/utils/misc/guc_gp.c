@@ -4887,7 +4887,7 @@ struct config_enum ConfigureNamesEnum_gp[] =
 			GUC_NOT_IN_SAMPLE
 		},
 		&gp_vectorized_execution,
-		GP_VECTORIZED_EXECUTION_FORCE, gp_vectorized_execution_options,
+		GP_VECTORIZED_EXECUTION_OFF, gp_vectorized_execution_options,
 		NULL, NULL, NULL
 	},
 
